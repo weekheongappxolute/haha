@@ -82,7 +82,7 @@ function onNotificationGCM(e) {
         break;
 
         case 'error':
-            alert('Error: ' + e.msg);
+            alert('Noti Error: ' + e.msg);
         break;
 
         default:

@@ -9,8 +9,9 @@
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <feature name="GenericPush">
-        <param name="android-package" value="com.plugin.gcm.GenericPush" />
+    <plugin name="com.phonegap.plugins.PushPlugin" /> 
+    <feature name="PushPlugin">
+        <param name="android-package" value="com.plugin.gcm.PushPlugin" />
     </feature>
     <access origin="*" />
     <allow-intent href="http://*/*" />

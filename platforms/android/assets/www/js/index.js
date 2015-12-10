@@ -65,3 +65,36 @@ var app = {
 };
 
 app.initialize();
+
+function onNotificationGCM(e) {
+    switch(e.event){
+        case 'registered':
+            if (e.regid.length > 0){
+                alert(e.regid);
+            }
+        break;
+
+        case 'message':
+            if (e.foreground){
+            	// When the app is running foreground.
+                alert('The room temperature is set too high')
+            }
+        break;
+
+        case 'error':
+            alert('Error: ' + e.msg);
+        break;
+
+        default:
+          alert('An unknown event was received');
+          break;
+    }
+}
+
+function successHandler(result) {
+    alert('Success: '+ result);
+}
+
+function errorHandler(error) {
+    alert('Error: '+ error);
+}

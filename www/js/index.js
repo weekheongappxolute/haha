@@ -47,7 +47,7 @@ var app = {
         }
         catch(err)
         {
-          alert(err.message);
+          alert('trycatch error: '+err.message);
         }
 
     },

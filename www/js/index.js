@@ -96,5 +96,5 @@ function successHandler(result) {
 }
 
 function errorHandler(error) {
-    alert('Error: '+ error);
+    alert('errorHandler: '+ error);
 }

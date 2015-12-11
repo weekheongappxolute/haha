@@ -20,7 +20,6 @@
     </feature>
     <preference name="AndroidPersistentFileLocation" value="Internal" />
     <allow-intent href="market:*" />
-    <preference name="android-minSdkVersion" value="14" />
     <name>PushDemo</name>
     <description>
     A sample Apache Cordova application that responds to the deviceready event.
@@ -29,6 +28,7 @@
     Apache Cordova Team
   </author>
     <content src="index.html" />
+    <preference name="android-build-tool" value="gradle" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

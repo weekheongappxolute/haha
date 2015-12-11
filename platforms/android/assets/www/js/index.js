@@ -35,7 +35,7 @@ var app = {
   onDeviceReady: function() {
     try{
 
-      var push = new PushNotification({
+      var push = PushNotification.init({
         "android": {
           "senderID": "930119857297"
         },

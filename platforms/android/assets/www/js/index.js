@@ -67,7 +67,7 @@ var app = {
         alert(e.message);
       });
     } catch (e) {
-      alert(e.message);
+      alert('trycatch error: '+e.message);
     }
 
   },

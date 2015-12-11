@@ -71,7 +71,7 @@ var app = {
       });
 
       push.on('error', function(e) {
-        alert("push error");
+        alert("push error: "+e.message);
       });
     }
     catch(e){

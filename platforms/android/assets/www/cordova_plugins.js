@@ -7,14 +7,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
-        "id": "com.phonegap.plugins.PushPlugin.PushNotification",
-        "pluginId": "com.phonegap.plugins.PushPlugin",
-        "clobbers": [
-            "PushNotification"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-device/www/device.js",
         "id": "cordova-plugin-device.device",
         "pluginId": "cordova-plugin-device",
@@ -204,16 +196,24 @@ module.exports = [
         "clobbers": [
             "window.Media"
         ]
+    },
+    {
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.0",
-    "com.phonegap.plugins.PushPlugin": "2.5.0",
     "cordova-plugin-device": "1.1.0",
     "cordova-plugin-file": "3.0.0",
-    "cordova-plugin-media": "1.0.1"
+    "cordova-plugin-media": "1.0.1",
+    "phonegap-plugin-push": "1.4.5"
 }
 // BOTTOM OF METADATA
 });

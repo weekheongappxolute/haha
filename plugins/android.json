@@ -10,13 +10,13 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.mydomain.push"
         },
-        "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.mydomain.push"
-        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.mydomain.push"
         },
         "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.mydomain.push"
+        },
+        "phonegap-plugin-push": {
             "PACKAGE_NAME": "com.mydomain.push"
         }
     },

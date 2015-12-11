@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
     		try{
-            var pushNotification = window.plugins.pushNotification;
+            var pushNotification = window.plugins.PushNotification;
         		pushNotification.register(
         			successHandler,
         			errorHandler,

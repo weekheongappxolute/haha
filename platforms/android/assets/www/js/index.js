@@ -80,13 +80,5 @@ var app = {
   }
 };
 
-try {
-  {
 
-    app.initialize();
-  }
-} catch (e) {
-  alert(e.message);
-} finally {
-
-}
+app.initialize();

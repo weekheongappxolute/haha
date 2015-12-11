@@ -80,4 +80,13 @@ var app = {
   }
 };
 
-app.initialize();
+try {
+  {
+    
+    app.initialize();
+  }
+} catch (e) {
+  alert(e.message);
+} finally {
+
+}
